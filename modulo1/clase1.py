@@ -10,9 +10,8 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    papa = 1
-    cebolla = 2
-    suma = papa + cebolla
-    print (suma)
+    nombre = "claudia cecilia "
+    apellido = "santivañez aparicio"
+    print (nombre + apellido)
 if __name__ == '__main__':
     main()
