@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        clase2_ejercicio1
+# Name:        module1
 # Purpose:
 #
 # Author:      Claudia Santivañez
@@ -10,24 +10,6 @@
 #-------------------------------------------------------------------------------
 
 def main():
-
-#Ejercicio 1.
-#Pedir al usuario que ingrese un nro impar
-#Mientras que el usuario no ingrese un nro impar se volverá a pedir que ingrese
-#un nro impar
-#deberá indicar por pantalla si es impar
-
-        num = int(input("Ingrese un número: "))
-        while(num % 2 == 0):
-            print("Ingrese un numero impar")
-            num = int(input("Ingrese un número: "))
-        print(f'El numero impar es: {num}')
-
-
-if __name__ == '__main__':
-    main()
-
-    def main():
 #ejercicio 2
 #Pedir al usuario que ingrese dos nros
 #Luego imprimir 3 opciones (1. sumar, 2. restar y 3. multiplicar)
@@ -38,8 +20,8 @@ if __name__ == '__main__':
 #Ejecutar la operación
 #Mostrar por pantalla el resultado
 
-     a = int(input("ingrese un numero "))
-     b = int(input("ingrese un numero "))
+    a = int(input("ingrese un numero "))
+    b = int(input("ingrese un numero "))
    # print ("1 sumar, 2 restar, 3 multiplicar")
     operacion = int(input("ingrese una opcion: 1 sumar, 2 restar, 3 multiplicar "))
     while operacion < 1 or operacion > 3:
